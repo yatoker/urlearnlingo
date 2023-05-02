@@ -8,7 +8,6 @@ import {
 } from 'nativescript-ui-sidedrawer'
 import { filter } from 'rxjs/operators'
 import { Application } from '@nativescript/core'
-import { initFirebase } from './core/services';
 
 @Component({
   selector: 'ns-app',
@@ -23,7 +22,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    initFirebase();
 
     this._activatedUrl = '/home'
     this._sideDrawerTransition = new SlideInOnTopTransition()

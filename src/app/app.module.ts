@@ -5,10 +5,10 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 
 import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular";
-import { DATA_SERVICE_TOKEN, FirestoreService, MockDataService } from './core/services';
+import { DATA_SERVICE_TOKEN, DataService, FirestoreService, MockDataService } from './core/services';
 import { DefaultAppConfig } from './core/app.config';
 
-export function TokenFactory() {
+export function TokenFactory() : DataService{
   return DefaultAppConfig.useFirestoreService ? new FirestoreService() : new MockDataService();
 }
 

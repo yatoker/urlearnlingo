@@ -1,4 +1,4 @@
-import { InjectionToken } from "@angular/core";
+import { Injectable, InjectionToken } from "@angular/core";
 import { ApplicationSettings, Category, Entry, User } from "../models";
 
 export interface DataService {
@@ -35,7 +35,7 @@ export interface DataService {
   /**
    * Get user with the given ID
    */
-  getUserById(id : number): User | undefined;
+  getUserById(id: number): User | undefined;
 
   /**
    * Get excluded list of entries
@@ -56,4 +56,4 @@ export interface DataService {
 /**
  * Data Service Token used to handle data operations
  */
-export const DATA_SERVICE_TOKEN = new InjectionToken<string>('DataServiceToken');
+export const DATA_SERVICE_TOKEN = new InjectionToken<DataService>('DataServiceToken');

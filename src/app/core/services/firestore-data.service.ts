@@ -7,9 +7,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
  })
 export class FirestoreService implements DataService {
-  greet() {
-    alert('Greeting from firestore service!')
-  }
+
   getCategories(): Category[] {
     throw new Error('Method not implemented.');
   }

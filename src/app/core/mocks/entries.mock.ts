@@ -7,6 +7,7 @@ export const mockEntries: Entry[] = [
     categoryId: 1,
     key: 'Silgi',
     value: 'Eraser',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -15,6 +16,7 @@ export const mockEntries: Entry[] = [
     categoryId: 1,
     key: 'Şişe',
     value: 'Bottle',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -23,6 +25,7 @@ export const mockEntries: Entry[] = [
     categoryId: 2,
     key: 'Dust',
     value: 'Toz',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -31,6 +34,7 @@ export const mockEntries: Entry[] = [
     categoryId: 2,
     key: 'Book',
     value: 'Kitap',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -39,6 +43,7 @@ export const mockEntries: Entry[] = [
     categoryId: 3,
     key: 'Wallet',
     value: 'Portefeuille',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -47,6 +52,7 @@ export const mockEntries: Entry[] = [
     categoryId: 3,
     key: 'Country',
     value: 'Pays',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -55,6 +61,7 @@ export const mockEntries: Entry[] = [
     categoryId: 5,
     key: 'Door',
     value: 'Puerta',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },
@@ -63,6 +70,7 @@ export const mockEntries: Entry[] = [
     categoryId: 5,
     key: 'Bicycle',
     value: 'Bicicleta',
+    example: 'No example!',
     createdBy: 'Eray Ahmet',
     createdAt: addDays(currentDate(), 5)
   },

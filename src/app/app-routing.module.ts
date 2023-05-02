@@ -18,6 +18,10 @@ const routes: Routes = [
     loadChildren: () => import('~/app/features/entries/entries.module').then((m) => m.EntriesModule),
   },
   {
+    path: 'entries/:id',
+    loadChildren: () => import('~/app/features/entries/entries.module').then((m) => m.EntriesModule),
+  },
+  {
     path: 'history',
     loadChildren: () => import('~/app/features/history/history.module').then((m) => m.HistoryModule),
   },

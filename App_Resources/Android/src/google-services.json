@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2949452935",
+    "project_id": "urlearnlingo",
+    "storage_bucket": "urlearnlingo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2949452935:android:311f2dbc198d6fd3ac9422",
+        "android_client_info": {
+          "package_name": "org.nativescript.urlearnlingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2949452935-k0o5mm139cp1vlmp1np7l8e1tlr6ftcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPyP5Mhno0ND1I0IDkGT9isrFVsv9VfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2949452935-k0o5mm139cp1vlmp1np7l8e1tlr6ftcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

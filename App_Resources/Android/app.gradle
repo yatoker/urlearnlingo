@@ -9,13 +9,14 @@ android {
   // ndkVersion ""
 
   defaultConfig {
-    minSdkVersion 17
+    multiDexEnabled true
+    minSdkVersion 19
     // targetSdkVersion 32
 
     // Version Information
     versionCode 1
     versionName "1.0.0"
-    
+
     generatedDensities = []
   }
 
